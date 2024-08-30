@@ -6,7 +6,7 @@ const handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, i
   if (usedPrefix == 'a' || usedPrefix == 'A') return;
   try {
     const datas = global;
-    const img = './media/abyss.png';
+    const img = './src/abyss.png';
     const d = new Date(new Date() + 3600000);
     const locale = 'es-ES';
     const week = d.toLocaleDateString(locale, { weekday: 'long' });
@@ -539,7 +539,7 @@ ${readMore}
 ◣───── ★ • ─────◢
 > *━━━━━━━━━━━━━* `;
 
-    const img = './media/abyss.png';  // Imagen predeterminada
+    const img = './src/abyss.png';  // Imagen predeterminada
 
       if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
